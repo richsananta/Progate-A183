@@ -1,0 +1,14 @@
+/* Smartphone */
+@media (max-width: 670px) {
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-right{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-list{
+        padding-bottom: 5px;
+    }
+}
