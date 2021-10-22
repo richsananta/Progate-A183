@@ -14,10 +14,17 @@ body {
       float: left;
   }
   
-  .kanan {
+  .kolom-kanan {
+    display: block;
     width: 500px;
     float: right;
     text-align: justify;
+  }
+
+  .kolom-kanan img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
   
   .right{
