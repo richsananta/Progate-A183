@@ -10,7 +10,7 @@
 }
 
 input, textarea {
-    width: 300px;
+    width: 400px;
     padding: 10px;
     font-size: 18px;
     border: 1px solid #dee7ec;
@@ -18,7 +18,7 @@ input, textarea {
 
 .contact-submit {
     color: white;
-    width: 300px;
+    width: 400px;
     background-color: #304310;
     margin-top: 20px;
     margin-bottom: 70px;
