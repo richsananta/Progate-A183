@@ -1,0 +1,43 @@
+.message {
+    background-color: #304310;
+    color: #304310;
+    padding: 20px;
+    display: inline-block;
+}
+
+.contact-form {
+    padding-top: 20px;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    color: white;
+    width: 300px;
+    background-color: #304310;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    box-shadow: 0 7px #9fbb62;
+}
+
+.contact-submit:hover {
+    opacity: 0.8;
+    color: #9fbb62;
+}
+
+.contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+    color: #9fbb62;
+  }
+
+.donasi {
+    width: 100%;
+    float: left;
+}
