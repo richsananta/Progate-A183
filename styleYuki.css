@@ -1,94 +1,87 @@
 body {
 
-background-color: #f4f47c;
-
-
-}
-
-/* Bagian Main */
-.left{
-    width: 40%;
-    background: #f4f47c;
-    padding: 10px;
-    margin: 10px;
-    float: left;
-}
-
-.kolom-kanan {
-  display: block;
-  width: 500px;
-  float: left;
-  text-align: justify;
-}
-
-.kolom-kanan img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.right{
-    font-family: roboto 'Montserrat', sans-serif;
+  background-color: #f4f47c;
+  
+  
+  }
+  
+  /* Bagian Main */
+  .left{
+      width: 40%;
+      background: #f4f47c;
+      padding: 10px;
+      margin: 10px;
+      float: left;
+  }
+  
+  .kanan {
+    width: 500px;
+    float: right;
+    text-align: justify;
+  }
+  
+  .right{
+      font-family: roboto 'Montserrat', sans-serif;
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+      float: left;
+  }
+  
+  .down-left{
+      font-family: roboto 'Montserrat', sans-serif;
+      width: 240px;
+      padding: 10px;
+      margin: 10px;
+      float: right;
+  }
+  
+  .down-right{
+      font-family: roboto 'Montserrat', sans-serif;
+      width: 240px;
+      padding: 10px;
+      margin: 10px;
+      float: right;
+  }
+  
+  .btn {
+      box-sizing: border-box;
+      -webkit-appearance: none;
+          -moz-appearance: none;
+              appearance: none;
+      background-color: #003818;
+      border: 2px solid #003818;
+      border-radius: 0.6em;
+      color:#fff;
+      cursor: pointer;
+      display: flex;
+      align-self: center;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1;
+      margin: 20px;
+      padding: 1.2em 2.8em;
+      text-decoration: none;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: roboto 'Montserrat', sans-serif;
+      font-weight: 700;
+  }
+  
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  
+  .first:hover {
+    box-shadow: 0 0 40px 40px #4AA96C inset;
+  }
+  
+  .tentang-kami {
     width: 100%;
-    padding: 10px;
-    margin: 10px;
     float: left;
-}
-
-.down-left{
-    font-family: roboto 'Montserrat', sans-serif;
-    width: 240px;
-    padding: 10px;
-    margin: 10px;
-    float: right;
-}
-
-.down-right{
-    font-family: roboto 'Montserrat', sans-serif;
-    width: 240px;
-    padding: 10px;
-    margin: 10px;
-    float: right;
-}
-
-.btn {
-    box-sizing: border-box;
-    -webkit-appearance: none;
-        -moz-appearance: none;
-            appearance: none;
-    background-color: #003818;
-    border: 2px solid #003818;
-    border-radius: 0.6em;
-    color:#fff;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: roboto 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-.btn:hover, .btn:focus {
-  color: #fff;
-  outline: 0;
-}
-
-.first {
-  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-}
-
-.first:hover {
-  box-shadow: 0 0 40px 40px #4AA96C inset;
-}
-
-.tentang-kami {
-  width: 100%;
-  float: left;
-}
+  }
