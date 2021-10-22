@@ -14,10 +14,17 @@ background-color: #f4f47c;
     float: left;
 }
 
-.kanan {
+.kolom-kanan {
+  display: block;
   width: 500px;
-  float: right;
+  float: left;
   text-align: justify;
+}
+
+.kolom-kanan img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .right{
